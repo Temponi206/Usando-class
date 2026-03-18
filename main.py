@@ -17,7 +17,7 @@ class Main:
         self.cliente=Cliente(self.estoque)
         
 
-
+#menu do sistema    
     def menu(self):
         while True:
             op=self.cliente.escolha()
